@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { Handle, Position } from '@vue-flow/core'
+import { Handle, Position, type NodeProps } from '@vue-flow/core'
 
-defineProps<{
-  data: {
-    label: string
-    type: 'book' | 'area' | 'specialization' | 'technology' | 'career'
-    description?: string
-    items?: string[]
-    onSelect?: (data: { label: string; type: string; description?: string }) => void
-  }
-}>()
+type CustomNodeData = {
+  label: string
+  type: 'book' | 'area' | 'specialization' | 'technology' | 'career'
+  description?: string
+  items?: string[]
+  onSelect?: (data: { label: string; type: string; description?: string }) => void
+}
+
+defineProps<NodeProps<CustomNodeData>>()
 
 const icons = {
   book: '📖',
