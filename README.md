@@ -23,7 +23,9 @@ Além de apresentar essas relações, o projeto permite explorar o significado d
 
 ## 🧪 Sugestões para testar
 
-Para explorar diferentes áreas e especializações, experimente pesquisar pelos seguintes livros:
+**Teste o DevPath:** [devpath-s2s2.vercel.app](https://devpath-s2s2.vercel.app/)
+
+Experimente pesquisar pelos seguintes livros para explorar diferentes áreas e especializações:
 
 | Livro                                     | Área / Especialização esperada                                 |
 | ----------------------------------------- | -------------------------------------------------------------- |
@@ -33,7 +35,7 @@ Para explorar diferentes áreas e especializações, experimente pesquisar pelos
 | **Kubernetes: Up and Running**            | Cloud e DevOps → DevOps + Site Reliability Engineering         |
 | **The Web Application Hacker's Handbook** | Segurança da Informação → Cybersecurity + Application Security |
 
-Essas sugestões permitem testar diferentes cenários de classificação e visualizar como o DevPath identifica áreas e especializações com base no conteúdo dos livros.
+Esses exemplos permitem testar diferentes cenários e observar como o DevPath identifica áreas e especializações com base no conteúdo dos livros.
 
 ## 🚀 Funcionalidades
 
@@ -242,5 +244,3 @@ O arquivo `.env` contém informações sensíveis e **não deve ser versionado n
 ## 👨‍💻 Autor
 
 **Marcelo Cardoso Kade**
-
-Desenvolvedor Frontend
