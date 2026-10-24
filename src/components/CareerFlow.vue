@@ -2,7 +2,6 @@
 import { ref, watch } from 'vue'
 import { VueFlow, type Node, type Edge } from '@vue-flow/core'
 import { Background } from '@vue-flow/background'
-import { Controls } from '@vue-flow/controls'
 
 import '@vue-flow/core/dist/style.css'
 import '@vue-flow/core/dist/theme-default.css'
@@ -176,7 +175,6 @@ watch(
   <div class="flow">
     <VueFlow v-model:nodes="nodes" v-model:edges="edges" :node-types="nodeTypes" fit-view-on-init>
       <Background />
-      <Controls />
     </VueFlow>
 
     <aside v-if="selectedInfo" class="info-panel">
